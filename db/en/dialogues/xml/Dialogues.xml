@@ -38,7 +38,7 @@
         <text>I bought it from Mr. Mercier.</text>
     </dialogue>
     <dialogue id="demandPasteur" ntargets="1" type="onDemand">
-        <text>Have you read "The Swiss Family Robinson" by De Montolieu.</text>
+        <text>Have you read "The Swiss Family Robinson" by De Montolieu?</text>
         <text>It's my favourite book.</text>
     </dialogue>
     <dialogue id="demandBaker" ntargets="1" type="onDemand">

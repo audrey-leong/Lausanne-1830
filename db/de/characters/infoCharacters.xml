@@ -1,0 +1,16 @@
+<db>
+    <personnage id="0">Elisabeth de Cerjeat wurde 1769 in Louth, Grossbritannien, als Tochter eines Schweizer Aristokraten und einer britischen Mutter geboren. Die Familie zieht 1780 nach La Rue de Bourg in Lausanne, wo sie sich zusammen mit ihrer Schwester der Armenfürsorge widmet. Im Alter von 73 Jahren gründet sie, nachdem sie am Grauen Star behandelt wurde, mit Hilfe von William Haldimand ein Blindenheim. Sie stirbt 1847 in Montchoisi.</personnage>
+    <personnage id="1">Angélique Trüschel, geboren 1780, ist die Ehefrau von Conrad Trüschel. Das Ehepaar besitzt eine gleichnamige Brauerei. Das Grundstück besteht aus dem Hauptwohnhaus, einer Brauerei, Ställen, einer Scheune, einem Holzschuppen, einem Garten und einem Obstgarten. Dort zieht sie auch ihre Töchter auf. Conrad stirbt 1838 und Angélique 1842.</personnage>
+    <personnage id="2">Henri Perregaux ist ein 1785 in Lausanne geborener Architekt. Er wurde zum Bauinspektor und später zum Mitglied der Kommission für Brücken und Straßen ernannt und war der Architekt des Staates Waadt. Er restaurierte die Kathedrale von Lausanne, baute Rathäuser und errichtete mit Hilfe des Kantonsingenieurs Adrien Pichard die Grand-Pont. Er stirbt 1850 in Lausanne.</personnage>
+    <personnage id="3">Baronin Isabelle de Montolieu ist eine Schriftstellerin, die 1751 in Lausanne geboren wurde. Mit 35 Jahren veröffentlichte sie anonym ihren ersten Roman "Caroline von Lichtfield", der in ganz Europa ein Erfolg wurde. Sie übersetzte auch mehrere Romane ins Französische, darunter "Der Schweizer Robinson" von Johann David Wyss und mehrere Werke von Jane Austen. Sie stirbt 1832 in Vennes.</personnage>
+    <personnage id="4">Jean-Jacques Mercier (der zweite seines Namens) wurde 1789 in Lausanne geboren. Er ist Händler und Gerber. Er entwickelt eine Lederindustrie am Ufer des Flon, der zu dieser Zeit noch nicht überdeckt war. Die von der Manufaktur produzierten Abfälle werden in den Fluss geworfen, wodurch das Flon-Tal übelriechend und unhygienisch wird. Er stirbt 1868 in Lausanne.</personnage>
+    <personnage id="5">Benedict Rochat wurde 1777 in Lausanne geboren. Die Familie Rochat stammt aus dem Joux-Tal und ist seit Generationen Müller mit mehreren Mühlen am Fluss Flon. Sie mahlen Getreide und hacken Holz mit Wasserkraft, obwohl das verschmutzte Wasser zu ungesunden Lebensbedingungen führt.</personnage>
+    <objectif id="-1">[b]Objectif :[/b] 
+Schließe das Notizbuch und rede nochmals mit Herrn Gély.</objectif>
+    <objectif id="0">[b]Objectif :[/b] 
+Fülle die erste Seite des Notizbuchs aus. Die Informationen befinden sich im Raum.</objectif>
+    <objectif id="1">[b]Objectif :[/b]
+Finde die fehlenden Informationen, um die Volkszählung zu vervollständigen, und kehre zu Herrn Gély zurück, wenn alle Seiten vollständig sind.
+
+Wenn du dir bei einer Antwort nicht sicher bist, kehre zu Herrn Gély zurück, damit er deine Angaben korrigieren kann.</objectif>
+</db>

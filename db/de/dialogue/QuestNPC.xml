@@ -1,0 +1,73 @@
+<scene name="palud">
+        <dialogue type="onDemand" ntargets="1" id="demandQuest">
+                <text id="0">Also...</text>
+                <text id="1">Sie sind der neue Beauftragte für die Volkszählung, richtig?</text>
+                <text id="2">Nun gut. Dann wollen wir mal sehen... Hier ist Ihr Notizbuch. Versuchen Sie, es zu öffnen.</text>
+                <!--Faire apparaitre le bouton du carnet et laisser le joueur l'ouvrir et le fermer-->
+                <text id="3" objectif="0" replay="2">Es soll wichtige Informationen über</text>
+                <text id="4">die Einwohner von Lausanne enthalten,</text>
+                <text id="5">aber wie Sie wahrscheinlich bemerkt haben,</text>
+                <text id="6">fehlen einige Angaben.</text>
+                <text id="7">Versuchen Sie, die erste Seite auszufüllen.</text>
+                <text id="8">Sie können meine Kollegin fragen, ich glaube, sie kennt diese Person</text>
+                <text id="9">und ich glaube, wir haben einen an sie adressierten Brief auf dem Schreibtisch.</text>
+                <!--Faire apparaitre le NPC et l'item et laisser le joueur remplir la première page-->
+                <text id="10" objectif="2" replay="7">Bravo! Sie haben die erste Seite korrekt ausgefüllt.</text>
+                <text id="11">Es gibt noch 5 weitere Seiten zu ergänzen.</text>
+                <text id="12">Hier ist die Karte.</text>
+                <text id="13">Versuchen Sie, alle fehlenden Informationen in der Stadt zu finden.</text>
+                <text id="14">und kommen Sie zurück, wenn Sie das Notizbuch fertig ausgefüllt haben.</text>
+                <!--Ensuite dialogue qui se trouve dans NPC.cs-->
+                <text id="15" signal="EndQuest"></text>
+        </dialogue>
+        <!-- TODO: Translate as of here -->
+        <dialogue type="onDemand" ntargets="1" id="questTextAllCorrect">
+                <text id="0">So...</text>
+                <text id="1">Let me see the notebook.</text>
+                <text id="2">Bravo! Sie haben gute Arbeit geleistet!</text>
+                <text id="3">Ich werde dies in unserem Archiv aufbewahren.</text>
+                <text id="4">Vielleicht können Historiker eines Tages diese Informationen nutzen</text>
+                <text id="5">und ein Videospiel daraus machen.</text>
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="questTextCorrect">
+                <text id="0">Schauen wir mal...</text>
+                <text id="1">Es scheint, dass alle Informationen über diese Person richtig sind.</text>
+                <text id="2">Sie können zum nächsten weitergehen.</text>
+                <text id="3">Nur noch {0} Seiten auszufüllen!</text><!-- {0}: Number of incorrect pages left -->
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="questTextWrongSingular">
+                <text id="0">Schauen wir mal...</text>
+                <text id="1">Auf Seite {0}...</text><!-- {0}: Name associated to the current tab -->
+                <text id="2">Es gibt {1} falschen Eintrag.</text><!-- {1}: number of wrong entries in tab -->
+                <text id="3">Kommen Sie zu mir zurück, wenn sie es korrigiert haben.</text>
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="questTextWrongPlural">
+                <text id="0">Schauen wir mal.</text>
+                <text id="1">Auf Seite {0}...</text><!-- {0}: Name associated to the current tab -->
+                <text id="2">Es gibt {1} falsche Einträge.</text><!-- {1}: number of wrong entries in tab -->
+                <text id="3">Kommen Sie zu mir zurück, wenn sie es korrigiert haben.</text>
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="brewStart">
+                <text id="0">Le travail de brasseur peut être très fatiguant.</text>
+		<text id="1">Je ne sais pas si on va réussir à finir cette cuvée à temps...</text>
+                <text id="2">Tu veux nous aider à brasser la bière ?</text>
+                <text id="3">Merci !</text>
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="brewFail">
+                <text id="0">Mais tu as fait n'importe quoi !</text>
+		<text id="1">La bière est complètement brûlée !</text>
+                <text id="2">Mme Trüschel ne sera pas du tout contente...</text>
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="brewGood">
+                <text id="0">Bien...</text>
+		<text id="1">La bière n'est pas trop brûlée et encore vendable.</text>
+                <text id="2">Merci pour l'aide.</text>
+        </dialogue>
+        <dialogue type="onDemand" ntargets="1" id="brewPerfect">
+                <text id="0">Wow la bière est parfaite !</text>
+		<text id="1">Tu as vraiment un don pour ça.</text>
+                <text id="2">Merci énormément pour l'aide !</text>
+                <text id="3">Allez parler à Mme Trüschel...</text>
+                <text id="4">Je pense qu'elle vous remerciera.</text>
+        </dialogue>
+</scene>

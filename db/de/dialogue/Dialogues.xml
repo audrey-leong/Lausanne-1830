@@ -1,0 +1,201 @@
+<scene name="palud">
+    <dialogue id="preTuto" ntargets="1" type="onDemand">
+        <text>Reden Sie mit Herrn Gély.</text>
+    </dialogue>
+    <dialogue id="demandTuto" ntargets="1" type="onDemand">
+        <text>Ich kenne Fräulein De Cerjeat.</text>
+        <text>Sie heißt Elisabeth.</text>
+    </dialogue>
+    <dialogue id="testApproach" ntargets="1" type="onApproach">
+        <text>
+            <option id="0">Frisches Obst und Gemüse !</option>
+            <option id="1">Guten Tag! Was kaufen Sie?</option>
+            <option id="2">Endlich ein Kunde!</option>
+        </text>
+    </dialogue>
+    <dialogue id="testDemand" ntargets="1" type="onDemand">
+        <text>Grüß Gott, wie kann ich Sie helfen?</text>
+        <text>Ich habe schöne Äpfel und Rüben!</text>
+    </dialogue>
+    <dialogue id="demandElisabeth" ntargets="1" type="onDemand">
+        <text>François?</text>
+        <text>Oh, Entschuldigung. Ich habe Sie mit jemand anderem verwechselt...</text>
+    </dialogue>
+    <dialogue id="demandTruschel" ntargets="1" type="onDemand">
+        <text>Ich liebe es, auf den Markt zu gehen!</text>
+        <text>Ich will alles kaufen!</text>
+        <text>aber ich will nicht alles nach Hause schleppen...</text>
+        <text>Ich wohne in der Brauerei in der Straße Chaucrau.</text>
+        <text>Und wenn ich das mache, habe ich Angst, dass meine Mutter Angélique mich nicht mehr kommen lässt.</text>
+    </dialogue>
+    <dialogue id="demandOldMan" ntargets="1" type="onDemand">
+        <text>Oh, es scheint, als hätte Frau Trüschel ihre Tochter wieder Besorgungen machen lassen.</text>
+        <text>Normalerweise ist es die Aufgabe eines Dieners.</text>
+        <text>Aber ich glaube, sie möchte die Stadt sehen.</text>
+    </dialogue>
+    <dialogue id="demandRandom" ntargets="1" type="onDemand">
+        <text>Das Leder steht leider nicht zum Verkauf!</text>
+        <text>Ich habe es von Herrn Mercier gekauft.</text>
+    </dialogue>
+    <dialogue id="demandPasteur" ntargets="1" type="onDemand">
+        <text>Haben Sie "Der Schweizerische Robinson" von De Montolieu gelesen?</text>
+        <text>Es ist mein Lieblingsbuch.</text>
+    </dialogue>
+    <dialogue id="demandBaker" ntargets="1" type="onDemand">
+        <text>Sie sollten vorsichtig sein!</text>
+        <text>Es gibt in letzter Zeit viele Diebstähle.</text>
+        <text>Sie stehlen vor allem das Gepäck im hinteren Teil der Wagens,</text>
+        <text>aber ich habe gehört, dass jemandem</text>
+        <text>eine Eule aus seinem eigenen Garten gestohlen wurde!</text>
+    </dialogue>
+    <dialogue id="demandLingere" ntargets="1" type="onDemand">
+        <text>Ich würde so gerne ins Schloss Vennes eingeladen werden,</text>
+        <text>um zu sehen, ob das Innere so schön ist wie das Äußere...</text>
+        <text>Aber ich bin nur eine Waschfrau.</text>
+        <text>Frau De Montolieu wohnt dort mit ihrem einzigen Sohn.</text>
+    </dialogue>
+    <dialogue id="demandLingere2" ntargets="1" type="onDemand">
+        <text>Und ich träume davon, dass jemand die Wäsche für mich macht.</text>
+    </dialogue>
+    <dialogue id="appConrad" ntargets="1" type="onApproach">
+        <text>
+            <option id="0">Na los! Das Bier braut sich nicht von selbst!</option>
+            <option id="1">Schnell, schnell!</option>
+        </text>
+    </dialogue>
+    <dialogue id="demandConrad" ntargets="1" type="onDemand">
+        <text>Wenn Sie irgendwelche Fragen haben, fragen Sie meinen Ehegatten.</text>
+    </dialogue>
+    <dialogue id="demandBrasseur" ntargets="1" type="onDemand">
+        <text>Hey Wolff! Weißt du, was mit Ralf passiert ist?</text>
+        <text>Ich habe ihn schon lange nicht mehr gesehen....</text>
+    </dialogue>
+    <dialogue id="demandTonnelier" ntargets="1" type="onDemand">
+        <text>Nein, keine Ahnung...</text>
+        <text>Das letzte Mal, dass ich ihn gesehen habe, war letzte Woche,</text>
+        <text>aber meine Erinnerungen sind etwas verschwommen...</text>
+        <text>Wir hatten an diesem Abend zu viel getrunken.</text>
+    </dialogue>
+    <dialogue id="demandTonneliers" ntargets="1" type="onDemand">
+        <text>Brauen kann erschöpfend sein.</text>
+    </dialogue>
+    <dialogue id="demandAngelique" ntargets="1" type="onDemand">
+        <text>Es tut mir leid, aber ich bin im Moment sehr beschäftigt.</text>
+        <text>Ich muss noch etwas erledigen,</text>
+        <text>aber Sie können sich meine Unterlagen oben auf dem Schreibtisch ansehen.</text>
+        <text>Vielleicht finden Sie, was Sie suchen.</text>
+    </dialogue>
+    <dialogue id="demandAngeliqueBad" ntargets="1" type="onDemand">
+        <text>Je n'ai pas envie de vous parler...</text>
+        <text>Vous avez ruiné ma bière et brûlé ma cuve.</text>
+        <text>Allez embêter quelqu'un d'autre.</text>
+    </dialogue>
+    <dialogue id="demandAngeliqueGood" ntargets="1" type="onDemand">
+        <text>Merci beaucoup pour votre aide!</text>
+        <text>Ah mais je n'ai pas pris le temps de me présenter!</text>
+        <text>Je m'appelle Angélique Trüschel.</text>
+        <text>Avec mon époux, Conrad, nous sommes propriétaires de la brasserie.</text>
+    </dialogue>
+    <dialogue id="demandFille" ntargets="1" type="onDemand">
+        <text>Ich will auch den Markt sehen!</text>
+    </dialogue>
+    <dialogue id="demandFilles" ntargets="1" type="onDemand">
+        <text>Unsere Mutter meint, wir seien zu jung, um auszugehen,</text>
+        <text>aber unsere Schwester Frédérique darf Besorgungen machen.</text> 
+    </dialogue>
+    <dialogue id="appPerregaux" ntargets="1" type="onApproach">
+        <text>Finden Sie nicht, dass Lausanne mehr Brücken braucht?</text>
+    </dialogue>
+    <dialogue id="appPichard" ntargets="1" type="onApproach">
+        <text>Tatsächlich, Herr Perregaux!</text>
+    </dialogue>
+    <dialogue id="demandPichard" ntargets="1" type="onDemand">
+        <text>Was für ein schönes Gebäude, finden Sie nicht?</text> 
+        <text>Es ist das Casino Derrière-Bourg,</text> 
+        <text>einen Konzertsaal für Musik, Feste und Veranstaltungen aller Art.</text> 
+        <text>Genau hier versammelten sich die "Casinistes"</text>
+        <text>um die liberale Revolution zu organisieren.</text>
+    </dialogue>
+    <dialogue id="demandPerregaux" ntargets="1" type="onDemand">
+        <text>Ich habe meine Brieftasche irgendwo verloren...</text>
+    </dialogue>
+    <dialogue id="demandBourgeois" ntargets="1" type="onDemand">
+        <text>Hallo, mein Name ist Louis Henri Bourgeois.</text>
+        <text>Ich wurde als Stadtrat gewählt</text>
+        <text>kurz nach der Revolution, die genau hier in diesem Gebäude begann.</text>
+    </dialogue>
+    <dialogue id="demandBaumann" ntargets="1" type="onDemand">
+        <text>Frau Perregaux ist wieder schwanger. Sie erwartet ihr drittes Kind.</text>
+    </dialogue>
+    <dialogue id="demandPouly" ntargets="1" type="onDemand">
+        <text>Oh! Herzlichen Glückwunsch!</text>
+    </dialogue>
+    <dialogue id="demandFischer" ntargets="1" type="onDemand">
+        <text>Frau Appiani, die erste Sängerin des Theaters St. Charles von Lissabon,</text> 
+        <text>wird hier am 14. Februar ein Konzert geben.</text>
+    </dialogue>
+    <dialogue id="demandBene" ntargets="1" type="onDemand">
+        <text>Hallo, willkommen in der Rochat-Mühle!</text>
+        <text>Ich heiße Benedict.</text>
+        <text>Es sind schon seit mehreren Generationen,</text> 
+        <text>dass meine Familie hier wohnt und arbeitet.</text>
+    </dialogue>
+    <dialogue id="appFemme" ntargets="1" type="onApproach">
+        <text>Marie, hör auf herumzuspielen und hilf mir!</text>
+    </dialogue>
+    <dialogue id="demandFemme" ntargets="1" type="onDemand">
+        <text>Ja, das sind alle unsere Kinder.</text>
+        <text>Selbst ich bin mir nicht mehr sicher, wie viele es sind...</text>
+    </dialogue>
+    <dialogue id="demEnfant" ntargets="1" type="onDemand">
+        <text>Keine Sorge, an den Geruch vom Flon gewöhnt man sich schnell.</text>
+    </dialogue>
+    <dialogue id="demEnfant2" ntargets="1" type="onDemand">
+        <text>Trinke nicht aus dem Fluss!</text>
+        <text>Häufig findet man darin Tierkadaver.</text>
+        <text>Die Schlachthöfe und Gerbereien werfen sie ins Wasser.</text>
+    </dialogue>
+    <dialogue id="demEnfant3" ntargets="1" type="onDemand">
+        <text>Seit wie vielen Tagen schläft dieser Fremde schon hier?</text>
+    </dialogue>
+    <dialogue id="demEnfant4" ntargets="1" type="onDemand">
+        <text>Ich weiß nicht... Sollen wir ihn aufwecken?</text>
+    </dialogue>
+    <dialogue id="demEnfant5" ntargets="1" type="onDemand">
+        <text>Willst du mit mir spielen?</text>
+    </dialogue>
+    <dialogue id="appEnfant5" ntargets="1" type="onApproach">
+        <text>
+            <option id="0">Ha ha ha!</option>
+            <option id="1">La la laaa...</option>
+            <option id="2">Nicht jetzt, Mutter!</option>
+        </text>
+    </dialogue>
+    <dialogue id="demEnfant6" ntargets="1" type="onDemand">
+        <text>Ich wäre lieber ein Chocolatier als ein Müller.</text>
+        <text>Wie unser Nachbar, Herr Kohler.</text>
+    </dialogue>
+    <dialogue id="demEnfant7" ntargets="1" type="onDemand">
+        <text>I help my father grind grains with the millstones.</text>
+    </dialogue>
+    <dialogue id="demEnfant8" ntargets="1" type="onDemand">
+        <text>Meinem Bruder geht es nicht gut.</text>
+        <text>Er ist schon seit vielen Tagen krank.</text>
+        <text>Ich fürchte, dass er es nicht schaffen wird.</text>
+    </dialogue>
+    <dialogue id="appDomestique" ntargets="1" type="onApproach">
+        <text>
+            <option id="0">Ruh dich aus.</option>
+            <option id="1">Trinke etwas Suppe.</option>
+        </text>
+    </dialogue>
+    <dialogue id="demDomestique" ntargets="1" type="onDemand">
+        <text>Verdammter Flon! Bloß eine Quelle von Krankheit und Übel!</text>
+    </dialogue>
+    <dialogue id="demMalade" ntargets="1" type="onDemand">
+        <text>*Kof kof*</text>
+    </dialogue>
+    <dialogue id="demRalf" ntargets="1" type="onDemand">
+        <text>Zzz...</text>
+    </dialogue>
+</scene>
